@@ -1,0 +1,64 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.input-container {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e5e7eb;
+  width: 70%;
+}
+.inputEl {
+  outline: none;
+  border-width: 0px;
+  background-color: transparent;
+}
+.filter-heading1 {
+  font-size: 20px;
+}
+.starts-img {
+  height: 25px;
+}
+.stars-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+}
+.clear-btn {
+  padding: 10px;
+  border: 1px solid #0967d2;
+  color: #0967d2;
+  background-color: transparent;
+  border-radius: 5px;
+  font-weight: 650;
+  margin-top: 20px;
+}
+.category-btn {
+  outline: none;
+  background-color: transparent;
+  border-width: 0px;
+  margin: 5px;
+}
+.category-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+button {
+  cursor: pointer;
+}
